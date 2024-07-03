@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ### 4. Usage Documentation:
 
-#### 1.  File and Text Translator
+#### 1. File and Text Translator
 This Streamlit app allows users to translate text and text files between multiple languages. Users can choose between translating a block of text or uploading a text file for translation. The app supports several common languages and includes options for auto-detecting the source language.
 
 #### Features
@@ -51,7 +51,7 @@ streamlit run langauge_translator/streamlit_app.py
 - Navigate to the App in Your Browser: Open the URL provided by Streamlit (typically http://localhost:8501).
 
 
-##### 2. Image Processing App
+#### 2. Image Processing App
 This application provides several image processing functionalities. Users can upload images and apply various transformations in real-time.
 
 #### Features
