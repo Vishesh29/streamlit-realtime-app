@@ -4,11 +4,29 @@ This repository contains a Python application designed for real-time data proces
 Features
 The Python applications in the repository include:
 
-Language Translation: Translates text from one language to another.
-Email Processing: Sends emails to recipients.
-Password Checker: Evaluates the uniqueness of passwords.
-PDF Operations: Merges, rotates, or adds watermarks to PDF files.
-Image Processing: Performs tasks such as blurring, smoothing, rotating, cropping, creating thumbnails, converting to grayscale, Perspective Transform and resizing images.
+- Language Translation: Translates text from one language to another.
+- Email Processing: Sends emails to recipients.
+- Password Checker: Evaluates the uniqueness of passwords.
+- PDF Operations: Merges, rotates, or adds watermarks to PDF files.
+- Image Processing: Performs tasks such as blurring, smoothing, rotating, cropping, creating thumbnails, converting to grayscale, Perspective Transform and resizing images.
+
+## Installation
+To run this application, you'll need to have Python installed on your machine. We recommend using a virtual environment to manage your dependencies.
+
+### 1. Clone the repository:
+```
+git clone https://github.com/Vishesh29/streamlit-realtime-app.git
+cd streamlit-realtime-app
+```
+### 2: Create a virtual environment (Optional but recommnded):
+```
+python -m venv venv
+source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+```
+### 3. Install the required packages:
+```
+pip install -r requirements.txt
+```
 
 
 ## 1. Documentation for File and Text Translator
@@ -24,7 +42,7 @@ This Streamlit app allows users to translate text and text files between multipl
 
 ### How to use:
 ```
-streamlit run streamlit_app.py
+streamlit run langauge_translator/streamlit_app.py
 ```
 
 - Navigate to the App in Your Browser: Open the URL provided by Streamlit (typically http://localhost:8501).
