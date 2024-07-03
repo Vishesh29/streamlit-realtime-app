@@ -1,4 +1,15 @@
 # streamlit-realtime-app
+This repository contains a Python application designed for real-time data processing and analysis using Streamlit. The application leverages Python's capabilities to handle data streams efficiently, making it suitable for real-time monitoring, analytics, or other dynamic data-driven tasks.
+
+Features
+The Python applications in the repository include:
+
+Language Translation: Translates text from one language to another.
+Email Processing: Sends emails to recipients.
+Password Checker: Evaluates the uniqueness of passwords.
+PDF Operations: Merges, rotates, or adds watermarks to PDF files.
+Image Processing: Performs tasks such as blurring, smoothing, rotating, cropping, creating thumbnails, converting to grayscale, Perspective Transform and resizing images.
+
 
 ## Documentation for File and Text Translator
 This Streamlit app allows users to translate text and text files between multiple languages. Users can choose between translating a block of text or uploading a text file for translation. The app supports several common languages and includes options for auto-detecting the source language.
