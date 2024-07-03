@@ -18,7 +18,7 @@ To run this application, you'll need to have Python installed on your machine. W
 git clone https://github.com/Vishesh29/streamlit-realtime-app.git
 cd streamlit-realtime-app
 ```
-### 2: Create a virtual environment (Optional but recommnded):
+### 2: Create a virtual environment (Optional but recommended):
 ```
 python -m venv venv
 source venv/bin/activate   # On Windows use `venv\Scripts\activate`
@@ -28,11 +28,12 @@ source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
+### 4. Usage Documentation:
 
-## 1. Documentation for File and Text Translator
+#### 1.  File and Text Translator
 This Streamlit app allows users to translate text and text files between multiple languages. Users can choose between translating a block of text or uploading a text file for translation. The app supports several common languages and includes options for auto-detecting the source language.
 
-### Features
+#### Features
 - Text Translation: Enter text directly into the app and translate it to the desired language.
 - File Translation: Upload a .txt file and translate its contents.
 - Language Support: Supports translation between multiple languages, including but not limited to English, Japanese, Spanish, French, German, Chinese, Russian, Korean, Portuguese, Italian, Arabic, Hindi, Bengali, Urdu, and Punjabi.
@@ -40,33 +41,9 @@ This Streamlit app allows users to translate text and text files between multipl
 - Download Translated File: After translating a file, download the translated content as a new text file.
 
 
-### How to use:
+#### How to use:
 ```
 streamlit run langauge_translator/streamlit_app.py
 ```
 
 - Navigate to the App in Your Browser: Open the URL provided by Streamlit (typically http://localhost:8501).
-
-### Usage
-- Select Translation Type:
-
-  - Choose "Translate Text" to translate a block of text.
-  - Choose "Translate File" to upload and translate a text file.
-
-- Select Source and Target Languages:
-
-  - Use the dropdown menus to select the source and target languages. The source language can be set to "Auto-detect".
-
-- Enter Text or Upload File:
-
-  - For text translation, enter the text in the provided text area and click "Translate".
-  - For file translation, upload a .txt file and click "Translate".
-
-- View Translated Text:
-
-  - For text translation, the translated text will be displayed below the input area.
-  - For file translation, the translated text will be displayed, and a download button will be provided to download the translated content.
-  - Choose "Auto-detect" as the source language and "Spanish" as the target language.
-  - Upload a text file containing the text "Good morning, have a nice day!".
-  - Click "Translate".
-  - The translated text "Buenos días, ¡que tengas un buen día!" will be displayed, and a button will allow you to download the translated file.
