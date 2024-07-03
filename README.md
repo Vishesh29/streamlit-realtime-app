@@ -69,6 +69,8 @@ This application provides several image processing functionalities. Users can up
 ```
 streamlit run image_processing/streamlit_app.py
 ```
+
+- Navigate to the App in Your Browser: Open the URL provided by Streamlit (typically http://localhost:8501).
 - Upload an Image: Use the file uploader in the Streamlit app to upload an image file.
 - Select a Transformation: Choose the desired transformation from the sidebar options.
 - Adjust Parameters: For each transformation, adjust the parameters as needed. For example, set the blur intensity, rotation angle, or resize dimensions.
