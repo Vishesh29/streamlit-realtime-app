@@ -11,7 +11,7 @@ PDF Operations: Merges, rotates, or adds watermarks to PDF files.
 Image Processing: Performs tasks such as blurring, smoothing, rotating, cropping, creating thumbnails, converting to grayscale, Perspective Transform and resizing images.
 
 
-## Documentation for File and Text Translator
+## 1. Documentation for File and Text Translator
 This Streamlit app allows users to translate text and text files between multiple languages. Users can choose between translating a block of text or uploading a text file for translation. The app supports several common languages and includes options for auto-detecting the source language.
 
 ### Features
@@ -48,16 +48,6 @@ streamlit run streamlit_app.py
 
   - For text translation, the translated text will be displayed below the input area.
   - For file translation, the translated text will be displayed, and a download button will be provided to download the translated content.
-
-### Example
-- Text Translation
-  - Select "Translate Text".
-  - Choose "English" as the source language and "Japanese" as the target language.
-  - Enter the text "Hello, how are you?" and click "Translate".
-  - The translated text "こんにちは、お元気ですか？" will be displayed.
-
-- File Translation
-  - Select "Translate File".
   - Choose "Auto-detect" as the source language and "Spanish" as the target language.
   - Upload a text file containing the text "Good morning, have a nice day!".
   - Click "Translate".
